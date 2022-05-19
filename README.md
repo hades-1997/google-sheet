@@ -11,6 +11,20 @@ Cài đặt api ở link trên và lấy
 id client
 Code secret du client
 
+# Insert database 
+
+CREATE TABLE `google_oauth` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `provider` varchar(255) NOT NULL,
+ `provider_value` text NOT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+# Chỉnh sửa file connect php
+  +  private $dbHost     = "localhost";
+  +  private $dbUsername = "root";
+  +  private $dbPassword = "";
+  +  private $dbName     = "google-sheet";
 # Bước 1: chạy file
 + callback.php
 
