@@ -4,7 +4,8 @@ sourcode php and google sheet api
 # Link cài đặt api cho google sheet
 
 + https://console.cloud.google.com/marketplace/product/google/sheets.googleapis.com?q=search&referrer=search&project=ethereal-radar-326003
-
+# active google sheet
++ https://console.developers.google.com/apis/api/sheets.googleapis.com/overview?project=1027340246538
 # Hướng dẫn dụng
 
 Cài đặt api ở link trên và lấy 
